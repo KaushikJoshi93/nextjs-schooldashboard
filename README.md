@@ -23,4 +23,4 @@ Next.js School Dashboard is a web application built with Next.js that allows use
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/KaushikJoshi/nextjs-schooldashboard.git
+   git clone https://github.com/KaushikJoshi93/nextjs-schooldashboard.git
