@@ -3,10 +3,10 @@ import Navbar from "@/components/Navbar";
 import SchoolCard from "@/components/SchoolCard";
 import SchoolCardSkeleton from "@/components/SchoolCardSkeleton";
 import { fetchAllSchools } from "@/lib/actions";
-import { ChangeEvent,  useEffect, useState } from "react";
+import React ,{ ChangeEvent,  useEffect, useState } from "react";
 import toast from "react-hot-toast";
 
-const page = () => {
+const Page = () => {
     type schoolDataType = { 
         id: number;
         school_name: string ; 
@@ -106,4 +106,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
